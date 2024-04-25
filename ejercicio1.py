@@ -1,25 +1,7 @@
-a=2
-b=988
-suma =a+b
-print("la suma es ", suma)
+#Aquí declaré variables
+a= str (input("digite su nombre :"))
+b= str (input("coloque el nombre del cetro de formacion :"))
+c= int (input("digite el numero del ambiente :"))
 
-a=34
-b=98
-resta =a-b
-print("la resta es ", resta)
-
-a=12
-b=23
-producto =a*b
-print("la operacion es ", producto)
-
-a=23
-b=12
-residuo =a%b
-print("el resultado es",residuo)
-
-a=12
-b=35
-cociente =a/b
-print("el resultado es",cociente)
-
+#Aqui mostrare el resultado de las variables
+print(f"el estudiante {a} estudia en el colegio {b} cursa el grado {c}" )

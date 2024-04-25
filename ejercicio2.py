@@ -1,25 +1,6 @@
-a= int(input("digite el valor para a:"))
-b=int(input("digite el valor para b: "))
-suma =a+b
-print("la suma es ", suma)
-
-a= int(input("digite el valor para a:"))
-b=int(input("digite el valor para b: "))
-resta =a+b
-print("la suma es ", resta)
-
-a= int(input("digite el valor para a:"))
-b=int(input("digite el valor para b: "))
-producto =a+b
-print("la suma es ", producto)
-
-a= int(input("digite el valor para a:"))
-b=int(input("digite el valor para b: "))
-residuo =a+b
-print("la suma es ", residuo)
-
-a= int(input("digite el valor para a:"))
-b=int(input("digite el valor para b: "))
-cociente =a+b
-print("la suma es ", cociente)
-
+#Aqui declararé variables 
+a= float (input("digite la altura del rectangulo : "))
+b= float (input("digite la base del rectangulo :"))
+suma=a+b
+# oencontraras tus resultados
+print(f" El perímetro del rectángulo es: {a} el área del rectángulo es: {b}")
